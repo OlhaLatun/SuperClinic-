@@ -1,5 +1,4 @@
 @import "/node_modules/normalize.css/normalize.css";
-@import "/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@400;700&display=swap");
 
 @font-face {
@@ -131,7 +130,7 @@ body {
     z-index: -1;
     max-width: 1440px;
     height: 600px;
-    background: url(/assets//background.jpg) center center no-repeat;
+    background: url(/assets/background.jpg) center center no-repeat;
     background-size: cover;
 
     @media screen and (max-width: 768px) {
