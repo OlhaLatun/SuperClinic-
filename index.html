@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>SuperClinic</title>
+  </head>
+  <body>
+    <section class="container main">
+      <header class="header">
+        <img src="./assets/logo.png" alt="logo" class="header__logo" />
+        <nav class="header__nav">
+          <!-- burger menu appears on @media screen (max-width: 600px)-->
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="header__list">
+            <li class="list_item">
+              <a href="#" class="item_link">Переваги</a>
+            </li>
+            <li class="list_item"><a href="#" class="item_link">Ціни</a></li>
+            <li class="list_item">
+              <a href="#" class="item_link">Лікування</a>
+            </li>
+            <li class="list_item">
+              <a href="#" class="item_link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button">Записатись на прийом</button>
+      </header>
+      <div class="main__background"></div>
+      <div class="main__content">
+        <p class="content_text">повний комплекс медичних послуг</p>
+        <h1 class="content_title">
+          Європейскі стандарти <br />
+          медичної допомоги
+        </h1>
+        <button class="content_button">про клініку</button>
+      </div>
+    </section>
+    <section class="container services">
+      <div class="contacts">
+        <span class="contacts__info">
+          <a
+            href="https://www.google.com/maps?q=%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%B2%D1%83%D0%BB.+%D0%9E%D0%BB%D0%B5%D0%BD%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiLkMDlmJDrAhXmxIsKHQbxCN0Q_AUoAXoECA0QAw"
+            class="info_item"
+          >
+            м. Київ, вул. Еленівська, 8
+          </a>
+        </span>
+        <span class="contacts__info">
+          <a class="info_item" href="tel:+308952222222"> (095) 222 22 22 </a>
+          <br />
+          <a class="info_item" href="tel:+308682222222"> (068) 222 22 22 </a>
+          <br />
+          <a class="info_item" href="tel:+308632222222"> (063) 222 22 22 </a>
+        </span>
+        <span class="contacts__info">
+          <a class="info_item" href="mailto:info@clinic.com">
+            info@clinic.com</a
+          >
+        </span>
+      </div>
+      <div class="services__menu">
+        <div class="services__title">
+          <p class="text">комплексний підхід до вашого здоров'я</p>
+          <h2 class="title">Ключові напрямки</h2>
+          <div class="star"><img src="./assets/Star.svg" alt="star" /></div>
+        </div>
+        <div class="services_dropdown">
+          <div id="neuro" class="dropdown_item">
+            <img
+              class="dropdown_icon"
+              src="./assets/brain.png"
+              alt="neurology"
+            />
+            <p class="dropdown_item_title">Неврологія</p>
+
+            <div class="triangle"></div>
+          </div>
+          <div id="massage" class="dropdown_item">
+            <img
+              class="dropdown_icon"
+              src="./assets/massage.png"
+              alt="massage"
+            />
+            <p class="dropdown_item_title">Масаж</p>
+            <div class="triangle"></div>
+          </div>
+          <div id="rheumatology" class="dropdown_item">
+            <img
+              class="dropdown_icon"
+              src="./assets/joint.png"
+              alt="rheumatology"
+            />
+            <p class="dropdown_item_title">Ревматологія</p>
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container service-description">
+      <div class="neuro flex">
+        <div class="details">
+          <h2 class="details_title">Неврологія</h2>
+          <p class="details_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. <br />
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button class="details_button">
+            Деталі
+          </button>
+        </div>
+        <img src="./assets/neuro.png" alt="neurology" class="service-pic" />
+      </div>
+      <div class="massage flex" style="display: none;">
+        <div class="details">
+          <h2 class="details_title">Масаж</h2>
+          <p class="details_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. <br />
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button class="details_button">
+            Деталі
+          </button>
+        </div>
+        <img src="./assets/relax.png" alt="massage" class="service-pic" />
+      </div>
+      <div class="rheumatology flex" style="display: none;">
+        <div class="details">
+          <h2 class="details_title">Ревматологія</h2>
+          <p class="details_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. <br />
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button class="details_button">
+            Деталі
+          </button>
+        </div>
+        <img src="./assets/reumo.png" alt="rheumatology" class="service-pic" />
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
